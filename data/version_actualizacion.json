@@ -1,0 +1,38 @@
+{
+  "version": "DSS ARIMA - Base de 12 meses actualizada",
+  "base_datos_origen": "BD_DSS_12_MESES_JUN2025_MAY2026.xlsx",
+  "periodo": "2025-06 a 2026-05",
+  "calidad_datos": {
+    "rows": 360,
+    "skus": 30,
+    "months": 12,
+    "duplicates_sku_month": 0,
+    "missing_critical": 0,
+    "demand_identity_ok_rows": 360,
+    "period_start": "2025-06-01T00:00:00",
+    "period_end": "2026-05-01T00:00:00"
+  },
+  "kpis_base": {
+    "demand": 3046.0,
+    "sales": 3009.0,
+    "unmet": 37.0,
+    "stockouts": 8,
+    "service": 0.9878529218647406
+  },
+  "precomputacion": {
+    "sku_solicitados": 30,
+    "sku_analizados": 30,
+    "sku_con_error": 0,
+    "tasa_ejecucion_pct": 100.0,
+    "cp4_superado_tecnico": true,
+    "cp4_estado_tecnico": "SUPERADO",
+    "sku_mape_lt15": 7,
+    "mape_promedio": 23.86886099306016,
+    "mape_mediana": 20.386207008639197,
+    "wmape_global": 24.42360050380724,
+    "mae_promedio": 1.9077545726862768,
+    "rmse_promedio": 2.342692220950427,
+    "meta_mape_15_cumplida": false,
+    "estado_meta_predictiva": "PENDIENTE"
+  }
+}

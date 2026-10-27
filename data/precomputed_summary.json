@@ -1,0 +1,16 @@
+{
+  "sku_solicitados": 30,
+  "sku_analizados": 30,
+  "sku_con_error": 0,
+  "tasa_ejecucion_pct": 100.0,
+  "cp4_superado_tecnico": true,
+  "cp4_estado_tecnico": "SUPERADO",
+  "sku_mape_lt15": 7,
+  "mape_promedio": 23.86886099306016,
+  "mape_mediana": 20.386207008639197,
+  "wmape_global": 24.42360050380724,
+  "mae_promedio": 1.9077545726862768,
+  "rmse_promedio": 2.342692220950427,
+  "meta_mape_15_cumplida": false,
+  "estado_meta_predictiva": "PENDIENTE"
+}
