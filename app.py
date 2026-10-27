@@ -44,6 +44,9 @@ st.markdown(
 <style>
 .block-container {padding-top: 1.15rem; padding-bottom: 2rem; max-width: 1500px;}
 [data-testid="stMetric"] {background:#F7FAFC;border:1px solid #DCE6EE;padding:14px;border-radius:12px;}
+[data-testid="stMetricLabel"], [data-testid="stMetricLabel"] * {color:#334155 !important;}
+[data-testid="stMetricValue"], [data-testid="stMetricValue"] * {color:#0F172A !important;}
+[data-testid="stMetricDelta"], [data-testid="stMetricDelta"] * {color:#475569 !important;}
 .small-note {font-size:0.88rem;color:#5F6F7F;}
 .ok {color:#137333;font-weight:700}.warn {color:#A15C00;font-weight:700}.bad {color:#B3261E;font-weight:700}
 </style>
